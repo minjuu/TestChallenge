@@ -8,22 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		FC3B0376270FEC1100266021 /* TestChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0375270FEC1100266021 /* TestChallengeApp.swift */; };
-		FC3B0378270FEC1100266021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0377270FEC1100266021 /* ContentView.swift */; };
 		FC3B037A270FEC1200266021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3B0379270FEC1200266021 /* Assets.xcassets */; };
 		FC3B037D270FEC1200266021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3B037C270FEC1200266021 /* Preview Assets.xcassets */; };
 		FC3B037F270FEC1200266021 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B037E270FEC1200266021 /* Persistence.swift */; };
 		FC3B0382270FEC1200266021 /* TestChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0380270FEC1200266021 /* TestChallenge.xcdatamodeld */; };
+		FC3B0392270FF36F00266021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0391270FF36F00266021 /* ContentView.swift */; };
+		FC3B0394270FF3BB00266021 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0393270FF3BB00266021 /* ListView.swift */; };
+		FC3B0396270FF47400266021 /* Group5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0395270FF47400266021 /* Group5.swift */; };
+		FC3B0398270FF47B00266021 /* Group9.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0397270FF47B00266021 /* Group9.swift */; };
+		FC3B039A270FF48900266021 /* Group8.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B0399270FF48900266021 /* Group8.swift */; };
+		FC3B039C270FF49600266021 /* Group7.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B039B270FF49600266021 /* Group7.swift */; };
+		FC3B03A3270FFA2600266021 /* disney.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03A2270FFA2600266021 /* disney.jpeg */; };
+		FC3B03B6270FFE1D00266021 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B0270FFE1D00266021 /* NotoSansKR-Bold.otf */; };
+		FC3B03B7270FFE1D00266021 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B1270FFE1D00266021 /* NotoSansKR-Medium.otf */; };
+		FC3B03B8270FFE1D00266021 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B2270FFE1D00266021 /* NotoSansKR-Thin.otf */; };
+		FC3B03B9270FFE1D00266021 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B3270FFE1D00266021 /* NotoSansKR-Black.otf */; };
+		FC3B03BA270FFE1D00266021 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B4270FFE1D00266021 /* NotoSansKR-Regular.otf */; };
+		FC3B03BB270FFE1D00266021 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3B03B5270FFE1D00266021 /* NotoSansKR-Light.otf */; };
+		FC3B03BD2710271E00266021 /* Group1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03BC2710271E00266021 /* Group1.swift */; };
+		FC3B03BF27102F2C00266021 /* Group2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03BE27102F2C00266021 /* Group2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC3B0372270FEC1100266021 /* TestChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3B0375270FEC1100266021 /* TestChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChallengeApp.swift; sourceTree = "<group>"; };
-		FC3B0377270FEC1100266021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC3B0379270FEC1200266021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3B037C270FEC1200266021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC3B037E270FEC1200266021 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FC3B0381270FEC1200266021 /* TestChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestChallenge.xcdatamodel; sourceTree = "<group>"; };
 		FC3B0383270FEC1200266021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3B0391270FF36F00266021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC3B0393270FF3BB00266021 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FC3B0395270FF47400266021 /* Group5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group5.swift; sourceTree = "<group>"; };
+		FC3B0397270FF47B00266021 /* Group9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group9.swift; sourceTree = "<group>"; };
+		FC3B0399270FF48900266021 /* Group8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group8.swift; sourceTree = "<group>"; };
+		FC3B039B270FF49600266021 /* Group7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group7.swift; sourceTree = "<group>"; };
+		FC3B03A2270FFA2600266021 /* disney.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disney.jpeg; sourceTree = "<group>"; };
+		FC3B03B0270FFE1D00266021 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Bold.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		FC3B03B1270FFE1D00266021 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Medium.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		FC3B03B2270FFE1D00266021 /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Thin.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		FC3B03B3270FFE1D00266021 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Black.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		FC3B03B4270FFE1D00266021 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Regular.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		FC3B03B5270FFE1D00266021 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Light.otf"; path = "../../../../../../Downloads/Noto_Sans_KR/NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		FC3B03BC2710271E00266021 /* Group1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group1.swift; sourceTree = "<group>"; };
+		FC3B03BE27102F2C00266021 /* Group2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +84,17 @@
 		FC3B0374270FEC1100266021 /* TestChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				FC3B0389270FEDBD00266021 /* Model */,
+				FC3B038A270FEDC800266021 /* View */,
+				FC3B038B270FEDCF00266021 /* ViewModel */,
+				FC3B038C270FEDE500266021 /* API */,
+				FC3B038D270FEDEC00266021 /* Utils */,
 				FC3B0375270FEC1100266021 /* TestChallengeApp.swift */,
-				FC3B0377270FEC1100266021 /* ContentView.swift */,
 				FC3B0379270FEC1200266021 /* Assets.xcassets */,
 				FC3B037E270FEC1200266021 /* Persistence.swift */,
 				FC3B0383270FEC1200266021 /* Info.plist */,
 				FC3B0380270FEC1200266021 /* TestChallenge.xcdatamodeld */,
+				FC3B039D270FF8E200266021 /* SupportingFiles */,
 				FC3B037B270FEC1200266021 /* Preview Content */,
 			);
 			path = TestChallenge;
@@ -73,6 +106,103 @@
 				FC3B037C270FEC1200266021 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC3B0389270FEDBD00266021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC3B038A270FEDC800266021 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B038E270FEE4700266021 /* List */,
+				FC3B038F270FEE6E00266021 /* Detail */,
+				FC3B0390270FF31700266021 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC3B038B270FEDCF00266021 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC3B038C270FEDE500266021 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FC3B038D270FEDEC00266021 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC3B038E270FEE4700266021 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B0393270FF3BB00266021 /* ListView.swift */,
+				FC3B0395270FF47400266021 /* Group5.swift */,
+				FC3B03BC2710271E00266021 /* Group1.swift */,
+				FC3B03BE27102F2C00266021 /* Group2.swift */,
+				FC3B039B270FF49600266021 /* Group7.swift */,
+				FC3B0399270FF48900266021 /* Group8.swift */,
+				FC3B0397270FF47B00266021 /* Group9.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FC3B038F270FEE6E00266021 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FC3B0390270FF31700266021 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B0391270FF36F00266021 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FC3B039D270FF8E200266021 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B03A1270FFA1900266021 /* Images */,
+				FC3B03A0270FF93600266021 /* Fonts */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FC3B03A0270FF93600266021 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B03B3270FFE1D00266021 /* NotoSansKR-Black.otf */,
+				FC3B03B0270FFE1D00266021 /* NotoSansKR-Bold.otf */,
+				FC3B03B5270FFE1D00266021 /* NotoSansKR-Light.otf */,
+				FC3B03B1270FFE1D00266021 /* NotoSansKR-Medium.otf */,
+				FC3B03B4270FFE1D00266021 /* NotoSansKR-Regular.otf */,
+				FC3B03B2270FFE1D00266021 /* NotoSansKR-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC3B03A1270FFA1900266021 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B03A2270FFA2600266021 /* disney.jpeg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3B03B8270FFE1D00266021 /* NotoSansKR-Thin.otf in Resources */,
 				FC3B037D270FEC1200266021 /* Preview Assets.xcassets in Resources */,
 				FC3B037A270FEC1200266021 /* Assets.xcassets in Resources */,
+				FC3B03B7270FFE1D00266021 /* NotoSansKR-Medium.otf in Resources */,
+				FC3B03B6270FFE1D00266021 /* NotoSansKR-Bold.otf in Resources */,
+				FC3B03B9270FFE1D00266021 /* NotoSansKR-Black.otf in Resources */,
+				FC3B03BB270FFE1D00266021 /* NotoSansKR-Light.otf in Resources */,
+				FC3B03BA270FFE1D00266021 /* NotoSansKR-Regular.otf in Resources */,
+				FC3B03A3270FFA2600266021 /* disney.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +283,15 @@
 			files = (
 				FC3B037F270FEC1200266021 /* Persistence.swift in Sources */,
 				FC3B0382270FEC1200266021 /* TestChallenge.xcdatamodeld in Sources */,
-				FC3B0378270FEC1100266021 /* ContentView.swift in Sources */,
+				FC3B0394270FF3BB00266021 /* ListView.swift in Sources */,
+				FC3B03BD2710271E00266021 /* Group1.swift in Sources */,
+				FC3B0398270FF47B00266021 /* Group9.swift in Sources */,
+				FC3B039A270FF48900266021 /* Group8.swift in Sources */,
+				FC3B0392270FF36F00266021 /* ContentView.swift in Sources */,
 				FC3B0376270FEC1100266021 /* TestChallengeApp.swift in Sources */,
+				FC3B0396270FF47400266021 /* Group5.swift in Sources */,
+				FC3B039C270FF49600266021 /* Group7.swift in Sources */,
+				FC3B03BF27102F2C00266021 /* Group2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
