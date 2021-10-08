@@ -10,10 +10,10 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         ScrollView() {
-            Group5()
-            Group7()
-            Group8()
-            Group9()
+            CurrentCell()
+            ExpectedCell()
+            PopularCell()
+            HighratingCell()
         }
     }
 }

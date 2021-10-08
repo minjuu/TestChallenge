@@ -1,5 +1,5 @@
 //
-//  Group1.swift
+//  CurrentPagination.swift
 //  TestChallenge
 //
 //  Created by 강민주 on 2021/10/08.
@@ -7,7 +7,18 @@
 
 import SwiftUI
 
-struct Group1: View {
+struct Movie : Identifiable {
+    let id = UUID()
+    let title : String
+    let movieName: String
+}
+var movies = [
+    Movie(title: "Moonlight Movie", movieName: "disney"),
+    Movie(title: "Mission Imposible",  movieName: "disney"),
+    Movie(title: "Parasite", movieName: "disney"),
+]
+
+struct CurrentPagination: View {
     var body: some View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
@@ -19,14 +30,14 @@ struct Group1: View {
             }
             .padding(.bottom,30)
             .padding(.leading, 10)
-        Group2()
+        
         }
     }
 }
 
-struct Group1_Previews: PreviewProvider {
+struct CurrentPagination_Previews: PreviewProvider {
     static var previews: some View {
-        Group1()
+        CurrentPagination()
     }
 }
 
@@ -47,10 +58,12 @@ struct MovieView: View {
                     
                 VStack(alignment: .leading) {
                     Text(movie.title)
-                        .font(.custom("NotoSansKR-Regular", size: 12))
-                        .frame(width:106)
+                        .font(.custom("NotoSansKR-Medium", size: 13))
+                        .frame(width:116)
                 }
                 .padding(.top, 5)
+                
+                Stars()
             }
         }
         .padding(.leading, 5)
