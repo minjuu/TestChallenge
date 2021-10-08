@@ -29,6 +29,7 @@
 		FC3B03BF27102F2C00266021 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03BE27102F2C00266021 /* Stars.swift */; };
 		FC3B03C12710387000266021 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C02710387000266021 /* MovieList.swift */; };
 		FC3B03C32710464D00266021 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C22710464D00266021 /* DetailView.swift */; };
+		FC3B03C527106BDB00266021 /* DetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C427106BDB00266021 /* DetailImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		FC3B03BE27102F2C00266021 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
 		FC3B03C02710387000266021 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		FC3B03C22710464D00266021 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FC3B03C427106BDB00266021 /* DetailImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3B03C22710464D00266021 /* DetailView.swift */,
+				FC3B03C427106BDB00266021 /* DetailImage.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3B03C527106BDB00266021 /* DetailImage.swift in Sources */,
 				FC3B037F270FEC1200266021 /* Persistence.swift in Sources */,
 				FC3B0382270FEC1200266021 /* TestChallenge.xcdatamodeld in Sources */,
 				FC3B03C12710387000266021 /* MovieList.swift in Sources */,
