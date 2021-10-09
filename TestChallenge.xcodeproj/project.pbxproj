@@ -30,6 +30,8 @@
 		FC3B03C12710387000266021 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C02710387000266021 /* MovieList.swift */; };
 		FC3B03C32710464D00266021 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C22710464D00266021 /* DetailView.swift */; };
 		FC3B03C527106BDB00266021 /* DetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B03C427106BDB00266021 /* DetailImage.swift */; };
+		FCB63FB72710BB41004BDA6D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB63FB62710BB41004BDA6D /* SplashView.swift */; };
+		FCB63FB92710BCCA004BDA6D /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB63FB82710BCCA004BDA6D /* request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		FC3B03C02710387000266021 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		FC3B03C22710464D00266021 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FC3B03C427106BDB00266021 /* DetailImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImage.swift; sourceTree = "<group>"; };
+		FCB63FB62710BB41004BDA6D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		FCB63FB82710BCCA004BDA6D /* request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +94,7 @@
 		FC3B0374270FEC1100266021 /* TestChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				FC3B0389270FEDBD00266021 /* Model */,
+				FCB63FB52710BAAA004BDA6D /* Model */,
 				FC3B038A270FEDC800266021 /* View */,
 				FC3B038B270FEDCF00266021 /* ViewModel */,
 				FC3B038C270FEDE500266021 /* API */,
@@ -114,13 +118,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FC3B0389270FEDBD00266021 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		FC3B038A270FEDC800266021 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +138,7 @@
 		FC3B038C270FEDE500266021 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FCB63FB82710BCCA004BDA6D /* request.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -212,6 +210,14 @@
 				FC3B03A2270FFA2600266021 /* disney.jpeg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		FCB63FB52710BAAA004BDA6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCB63FB62710BB41004BDA6D /* SplashView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3B03C527106BDB00266021 /* DetailImage.swift in Sources */,
+				FCB63FB92710BCCA004BDA6D /* request.swift in Sources */,
 				FC3B037F270FEC1200266021 /* Persistence.swift in Sources */,
 				FC3B0382270FEC1200266021 /* TestChallenge.xcdatamodeld in Sources */,
 				FC3B03C12710387000266021 /* MovieList.swift in Sources */,
@@ -300,6 +307,7 @@
 				FC3B039A270FF48900266021 /* PopularCell.swift in Sources */,
 				FC3B03C32710464D00266021 /* DetailView.swift in Sources */,
 				FC3B0392270FF36F00266021 /* ContentView.swift in Sources */,
+				FCB63FB72710BB41004BDA6D /* SplashView.swift in Sources */,
 				FC3B0376270FEC1100266021 /* TestChallengeApp.swift in Sources */,
 				FC3B0396270FF47400266021 /* CurrentCell.swift in Sources */,
 				FC3B039C270FF49600266021 /* ExpectedCell.swift in Sources */,

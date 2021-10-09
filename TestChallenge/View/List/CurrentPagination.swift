@@ -11,15 +11,21 @@ struct Movie : Identifiable {
     let id = UUID()
     let title : String
     let movieName: String
+    let idn: Int
 }
-var movies = [
-    Movie(title: "Moonlight Movie", movieName: "disney"),
-    Movie(title: "Mission Imposible",  movieName: "disney"),
-    Movie(title: "Parasite", movieName: "disney"),
-]
+
+
+struct DetailData: Decodable {
+    let posterPath : String
+    let title : String
+    let overview : String
+}
 
 struct CurrentPagination: View {
+
+    
     var body: some View {
+        
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment:.center) {
@@ -47,25 +53,30 @@ struct MovieView: View {
     var body: some View {
         VStack{
             VStack{
-                Image(movie.movieName)
-                    .resizable()
-                    .frame(width:124.8, height:191.004)
+                NavigationLink(destination: DetailView()) {
+
+                Button(action: {loadDetail(idx: movie.idn);print(movie.idn)
+}){AsyncImage(url: URL(string: movie.movieName)!,
+                               placeholder: { Text("Loading ...") },
+                               image: { Image(uiImage: $0).resizable() })
+                       .frame(width:124.8, height:191.004)
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(10)
                             .overlay(RoundedRectangle(cornerRadius: 8)
                                 .stroke(Color(#colorLiteral(red: 0.8979505897, green: 0.8981012702, blue: 0.8979307413, alpha: 1)), lineWidth: 1))
                             .shadow(radius: 1)
-                    
+                }
+                }
                 VStack(alignment: .leading) {
                     Text(movie.title)
                         .font(.custom("NotoSansKR-Medium", size: 13))
                         .frame(width:116)
                 }
                 .padding(.top, 5)
-                
+                }
                 Stars()
             }
-        }
+        
         .padding(.leading, 5)
         .frame(width:140, height: 250)
         .background(
@@ -74,4 +85,34 @@ struct MovieView: View {
         .foregroundColor(.black)
         .cornerRadius(15.0)
     }
+
+
+
+func loadDetail(idx : Int) {
+    guard let url = URL(string: "https://api.themoviedb.org/3/movie/\(idx)?api_key\(apiKey)") else {
+        fatalError("Invalid URL")
+    }
+    
+    URLSession.shared.dataTask(with: url) { data, response, error in
+        guard let data = data, error == nil else {
+            return
+        }
+        do {
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            decoder.dateDecodingStrategy = .secondsSince1970
+            let detailData = try decoder.decode(DetailData.self, from: data)
+            
+            doverview = detailData.overview
+            dposterPath = "https://image.tmdb.org/t/p/original"+detailData.posterPath
+            dtitle = detailData.title
+            
+            
+        } catch {
+            print("Error serializing Json: ", error)
+        }
+    }.resume()
+    
+}
+
 }

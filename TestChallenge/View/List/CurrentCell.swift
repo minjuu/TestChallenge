@@ -10,11 +10,11 @@ import SwiftUI
 struct CurrentCell: View {
     var body: some View {
         VStack(alignment: .leading) {
-            VStack(alignment: .leading, spacing: 16){
+            VStack(alignment: .leading, spacing: 0){
                 Text("현재 상영중")
                     .font(.custom("NotoSansKR-Bold", size: 25))
-                    .padding([.leading, .top], 20)
-            
+                    .padding([.leading, .bottom], 20)
+                    
                 CurrentPagination()
             
                 
