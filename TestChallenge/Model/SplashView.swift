@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import Combine
 
-let apiKey = "d84062482977d3497af33e6f7983cd29"
+let apiKey = "{api key 입력}"
 var title = [String]()
 var posterPath = [String]()
 var idn = [Int]()
